@@ -8,9 +8,9 @@
 | Hours
 | Description
 
-| 29.11.17
+| 02.12.17
 | 1
-| Review of this and that
+| Created all buttons and tried some button features
 
 | 30.11.17
 | 5
