@@ -1,22 +1,59 @@
 // see https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
 // see http://fxexperience.com/2011/12/styling-fx-buttons-with-css/
 
-#calculator  {
+#calculator .darkgrey {
 	-fx-background-color: #808080;
 
 }
 
 #calculator .grey {
-	-fx-background-color: #A9A9A9;
-	-fx-stroke: black;
-}
+	-fx-background-color: #A9A9A9,
+	    linear-gradient(#fcfcfc, #f3f3f3),
+        linear-gradient(#f2f2f2 0%, #e0e0e0 49%, #dddddd 50%, #918f8f 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+
+
+	}
+
+
+
 
 #calculator .orange {
-	-fx-background-color: #FFA500;
-	-fx-stroke: black;
+	-fx-background-color: #707070,
+	    linear-gradient(#fcfcfc, #f3f3f3),
+        linear-gradient(#ffd000 30%, #ffae00 49%, #ffa100 50%, #FFA500 1000%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+	-fx-font-size: 25px;
+	-fx-text-fill: white;
+
+
 }
 
 #calculator .lightgrey {
-	-fx-background-color: #DCDCDC;
-}
+	-fx-background-color: #707070,
+            linear-gradient(#fcfcfc, #f3f3f3),
+            linear-gradient(#f2f2f2 0%, #ebebeb 49%, #dddddd 50%, #cfcfcf 100%);
+        -fx-background-insets: 0,1,2;
+        -fx-background-radius: 3,2,1;
+        -fx-padding: 3 30 3 30;
+        -fx-text-fill: black;
+        -fx-font-size: 20px;
 
+
+
+
+
+}
+#calculator .test {
+-fx-background-color: #DCDCDC;
+	-fx-stroke: black;
+	-fx-border-color: black;
+	-fx-border-width: 0.1;
+	-fx-background-radius: 3,2,1;
+	}

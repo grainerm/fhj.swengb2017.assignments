@@ -8,58 +8,94 @@
           prefHeight="500.0" prefWidth="400.0" styleClass="gridpane" xmlns="http://javafx.com/javafx/null"
           xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.fhj.swengb.apps.calculator.CalculatorFxController">
 
+    <TextField fx:id="action" prefHeight="200.0" prefWidth="100.0"
+          GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.columnSpan="4" styleClass="darkgrey"/>
+
+
+
+
+
 
     <children>
-    <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="grey"
-            text="C" GridPane.columnIndex="2" GridPane.rowIndex="2">
-    </Button>
+        <Button mnemonicParsing="false" onAction="#smthg" prefHeight="100.0" prefWidth="100.0" styleClass="grey"
+                text="x&#8596;y" GridPane.columnIndex="2" GridPane.rowIndex="1">
+        </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="grey"
+        <Button mnemonicParsing="false" onAction="#down" prefHeight="100.0" prefWidth="100.0" styleClass="grey"
+                text="R&#8595;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+        </Button>
+    </children>
+    <children>
+        <Button mnemonicParsing="false" onAction="#up" prefHeight="100.0" prefWidth="100.0" styleClass="grey"
+                text="R&#8593;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+        </Button>
+    </children>
+    <children>
+        <Button mnemonicParsing="false" onAction="#drop" prefHeight="100.0" prefWidth="100.0" styleClass="grey"
+                text="drop" GridPane.columnIndex="5" GridPane.rowIndex="1">
+        </Button>
+    </children>
+
+
+
+
+
+
+    <children>
+        <Button mnemonicParsing="false" onAction="#c" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+                text="C" GridPane.columnIndex="2" GridPane.rowIndex="2">
+        </Button>
+    </children>
+    <children>
+        <Button mnemonicParsing="false" onAction="#plus_minus" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="+/-" GridPane.columnIndex="3" GridPane.rowIndex="2">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="grey"
-                text="percent" GridPane.columnIndex="4" GridPane.rowIndex="2">
-        </Button>
-    </children>
-
-
-
-
-
-    <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
-                text="/" GridPane.columnIndex="5" GridPane.rowIndex="2">
+        <Button mnemonicParsing="false" onAction="#percent" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+                text="\%" GridPane.columnIndex="4" GridPane.rowIndex="2">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
-                text="*" GridPane.columnIndex="5" GridPane.rowIndex="3">
+
+
+
+
+
+        <Button mnemonicParsing="false" onAction="#divide" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
+                text="&#247;" GridPane.columnIndex="5" GridPane.rowIndex="2">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
+        <Button mnemonicParsing="false" onAction="#multiply" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
+                text="&#215;" GridPane.columnIndex="5" GridPane.rowIndex="3">
+        </Button>
+    </children>
+    <children>
+        <Button mnemonicParsing="false" onAction="#minus" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
                 text="-" GridPane.columnIndex="5" GridPane.rowIndex="4">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
+        <Button mnemonicParsing="false" onAction="#plus" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
                 text="+" GridPane.columnIndex="5" GridPane.rowIndex="5">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
-                text="enter" GridPane.columnIndex="5" GridPane.rowIndex="6">
+        <Button mnemonicParsing="false" onAction="#enter" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
+                text="=" GridPane.columnIndex="5" GridPane.rowIndex="6">
         </Button>
     </children>
 
 
 
 
+
+
+
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#seven" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="7" GridPane.columnIndex="2" GridPane.rowIndex="3">
         </Button>
     </children>
