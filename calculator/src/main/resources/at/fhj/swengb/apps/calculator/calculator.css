@@ -3,6 +3,9 @@
 
 #calculator .darkgrey {
 	-fx-background-color: #808080;
+	-fx-text-fill: black;
+    -fx-font-size: 40px;
+
 
 }
 

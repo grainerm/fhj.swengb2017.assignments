@@ -56,14 +56,14 @@ class CalculatorFxController extends Initializable {
 
   def setCalculator(rpnCalculator : RpnCalculator) : Unit = calculatorProperty.set(rpnCalculator)
 
-  @FXML var numberTextField : TextField = _
+  @FXML var result : TextField = _
 
   override def initialize(location: URL, resources: ResourceBundle) = {
 
   }
 
   def sgn(): Unit = {
-    getCalculator().push(Op(numberTextField.getText)) match {
+    getCalculator().push(Op(result.getText)) match {
       case Success(c) => setCalculator(c)
       case Failure(e) => // show warning / error
     }
@@ -72,10 +72,9 @@ class CalculatorFxController extends Initializable {
 
 
 
-  def smthg() : Unit = {
-    println("an event has happened")
+  def smthg()  {
+    println("you pressed c")
   }
-
 
   def up() : Unit = {
     println("you pressed c")
@@ -90,12 +89,10 @@ class CalculatorFxController extends Initializable {
   }
 
 
-  def c(e: ActionEvent) : Unit = {
+  def c() : Unit = {
 
-    println("you pressed c")
+    result.setText("")
   }
-
-
 
   def plus_minus() : Unit = {
     println("an event has happened")
@@ -122,23 +119,57 @@ class CalculatorFxController extends Initializable {
   }
 
   def plus() : Unit = {
-    println("an event has happened")
+
   }
 
   def enter() : Unit = {
     println("an event has happened")
   }
 
-
-
-
-  def seven() : Unit = {
+  def comma() : Unit = {
     println("7")
   }
 
 
 
 
+  def zero() : Unit = {
+    result.appendText("0")
+  }
+  def one() : Unit = {
+    result.appendText("1")
+  }
+
+  def two() : Unit = {
+    result.setText("2")
+  }
+  def three() : Unit = {
+    result.setText("3")
+  }
+
+  def four() : Unit = {
+    result.setText("4")
+  }
+
+  def five() : Unit = {
+    result.setText("5")
+  }
+
+  def six() : Unit = {
+    result.setText("6")
+  }
+
+  def seven() : Unit = {
+    result.setText("7")
+  }
+
+  def eight() : Unit = {
+    result.setText("8")
+  }
+
+  def nine() : Unit = {
+    result.setText("9")
+  }
 
 
 

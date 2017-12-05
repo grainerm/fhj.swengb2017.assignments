@@ -8,8 +8,8 @@
           prefHeight="500.0" prefWidth="400.0" styleClass="gridpane" xmlns="http://javafx.com/javafx/null"
           xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.fhj.swengb.apps.calculator.CalculatorFxController">
 
-    <TextField fx:id="action" prefHeight="200.0" prefWidth="100.0"
-          GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.columnSpan="4" styleClass="darkgrey"/>
+    <TextField fx:id="result" editable="false" prefHeight="200.0" prefWidth="100.0"
+          GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.columnSpan="4" styleClass="darkgrey" alignment="TOP_RIGHT"/>
 
 
 
@@ -84,7 +84,7 @@
     </children>
     <children>
         <Button mnemonicParsing="false" onAction="#enter" prefHeight="100.0" prefWidth="100.0" styleClass="orange"
-                text="=" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                text="enter" GridPane.columnIndex="5" GridPane.rowIndex="6">
         </Button>
     </children>
 
@@ -100,52 +100,52 @@
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#eight" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="8" GridPane.columnIndex="3" GridPane.rowIndex="3">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#nine" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="9" GridPane.columnIndex="4" GridPane.rowIndex="3">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#four" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="4" GridPane.columnIndex="2" GridPane.rowIndex="4">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#five" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="5" GridPane.columnIndex="3" GridPane.rowIndex="4">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#six" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="6" GridPane.columnIndex="4" GridPane.rowIndex="4">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#one" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="1" GridPane.columnIndex="2" GridPane.rowIndex="5">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#two" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="2" GridPane.columnIndex="3" GridPane.rowIndex="5">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#three" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="3" GridPane.columnIndex="4" GridPane.rowIndex="5">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="200.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#zero" prefHeight="100.0" prefWidth="200.0" styleClass="lightgrey"
                 text="0" GridPane.columnIndex="2"  GridPane.columnSpan="2" GridPane.rowIndex="6">
         </Button>
     </children>
     <children>
-        <Button mnemonicParsing="false" onAction="#sgn" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
+        <Button mnemonicParsing="false" onAction="#comma" prefHeight="100.0" prefWidth="100.0" styleClass="lightgrey"
                 text="," GridPane.columnIndex="4" GridPane.rowIndex="6" >
         </Button>
     </children>
