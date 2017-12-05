@@ -1,10 +1,13 @@
 package at.fhj.swengb.apps.calculator
 
+import java.awt.Button
 import java.net.URL
 import java.util.ResourceBundle
 import javafx.application.Application
-import javafx.fxml.{FXMLLoader, Initializable}
-import javafx.scene.{Parent, Scene}
+import javafx.event.ActionEvent
+import javafx.fxml.{FXML, FXMLLoader, Initializable}
+import javafx.scene.control.TextField
+import javafx.scene.{Parent, Scene, control}
 import javafx.stage.Stage
 
 import scala.util.control.NonFatal
@@ -43,14 +46,99 @@ class CalculatorFX extends javafx.application.Application {
     stage.getScene.getStylesheets.add(css)
   }
 
+
+
+
+
 }
+
+
+
 
 class CalculatorFxController extends Initializable {
   override def initialize(location: URL, resources: ResourceBundle) = {
+    }
 
-  }
+
+
+
 
   def sgn() : Unit = {
     println("an event has happened")
   }
+
+
+
+  def smthg() : Unit = {
+    println("an event has happened")
+  }
+
+
+  def up() : Unit = {
+    println("you pressed c")
+  }
+
+  def down() : Unit = {
+    println("an event has happened")
+  }
+
+  def drop() : Unit = {
+    println("you pressed c")
+  }
+
+
+  def c(e: ActionEvent) : Unit = {
+
+    println("you pressed c")
+  }
+
+
+
+  def plus_minus() : Unit = {
+    println("an event has happened")
+  }
+
+  def percent() : Unit =  {
+
+
+  }
+
+
+
+
+  def divide() : Unit = {
+    println("an event has happened")
+  }
+
+  def multiply() : Unit = {
+    println("an event has happened")
+  }
+
+  def minus() : Unit = {
+    println("an event has happened")
+  }
+
+  def plus() : Unit = {
+    println("an event has happened")
+  }
+
+  def enter() : Unit = {
+    println("an event has happened")
+  }
+
+
+
+
+  def seven() : Unit = {
+    println("7")
+  }
+
+  
+  
+  
+
+
+
+
 }
+
