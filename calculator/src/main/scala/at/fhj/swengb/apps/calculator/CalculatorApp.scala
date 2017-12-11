@@ -72,34 +72,17 @@ class CalculatorFxController extends Initializable {
 
 
 
-  def smthg()  {
-    println("you pressed c")
-  }
-
-  def up() : Unit = {
-    println("you pressed c")
-  }
-
-  def down() : Unit = {
-    println("an event has happened")
-  }
-
-  def drop() : Unit = {
-    println("you pressed c")
-  }
-
 
   def c() : Unit = {
-
     result.setText("")
   }
 
   def plus_minus() : Unit = {
-    println("an event has happened")
+    result.setText("+/-")
   }
 
   def percent() : Unit =  {
-
+    result.setText("%")
 
   }
 
@@ -107,37 +90,38 @@ class CalculatorFxController extends Initializable {
 
 
   def divide() : Unit = {
-    println("an event has happened")
+    result.setText("/")
   }
 
   def multiply() : Unit = {
-    println("an event has happened")
+    result.setText("*")
   }
 
   def minus() : Unit = {
-    println("an event has happened")
+    result.setText("-")
   }
 
   def plus() : Unit = {
+    result.setText("+")
 
   }
 
   def enter() : Unit = {
-    println("an event has happened")
+    result.setText("=")
   }
 
   def comma() : Unit = {
-    println("7")
+    result.setText(",")
   }
 
 
 
 
   def zero() : Unit = {
-    result.appendText("0")
+    result.setText("0")
   }
   def one() : Unit = {
-    result.appendText("1")
+    result.setText("1")
   }
 
   def two() : Unit = {
@@ -170,8 +154,6 @@ class CalculatorFxController extends Initializable {
   def nine() : Unit = {
     result.setText("9")
   }
-
-
 
 
 }

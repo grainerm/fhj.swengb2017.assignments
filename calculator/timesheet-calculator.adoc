@@ -15,5 +15,12 @@
 | 2
 | added buttons, implemented new css, implement button functionality
 
+| 9.12.17
+| 3
+| tried to finish push function and other basic functions
+
+| 9.12.17
+| 1,5
+| finished rest of functions
 
 |===
